@@ -1,0 +1,47 @@
+
+body {
+background-image: url(../img/fondo.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #66999;
+}
+
+header 
+{	
+
+	margin-top: 4%;
+	margin-right: 2%;
+	margin-left: 2%;
+	text-align: center;
+
+}
+
+section 
+{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.pad-basic
+
+{
+padding:.5%;	
+}
+
+.no-btm
+{
+	margin-bottom:0%;
+}
+
+.btn-der
+{
+	text-align: right;
+}
+
+.dia
+{
+	height: 120px;
+	width: 100px;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+/* Colapsa todos los bordes que separan a cada celda. La tabla ocupa todo el ancho de ".app", además se establece una sobra gris alrededor de la tabla */
+table {
+  border-collapse: collapse;
+}
+
+/* Establece una sombra en la cabeza de la tabla */
+thead {
+  box-shadow: 0px 0px 10px gray;
+}
+
+/* Agrega un padding en cada celda */
+td {
+  padding: 0.5rem;
+}
+
+/* Crea una alternancia de colores a lo largo de las filas de la tabla. Establece en color azul todas las filas pares (2, 4, 6 ...) */
+
+tr:nth-child(even) {
+  background-color: #dee8f5;
+}
